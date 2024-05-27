@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Semana do Zero ao Programador Contratado - Landing Page GTA</title>
+		<link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon" />
+		<link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/estilo.css" />
+		<link rel="stylesheet" href="./css/fontes.css" />
+	</head>
+	<body>
+		<header class="cabecalho">
+			<div class="logo">
+				<img src="./imagens/logo-rockstar.svg" data-aos="flip-left" alt="Logo Rockstar Games" />
+				<hr />
+				<img src="./imagens/logo-gta-v.svg" data-aos="flip-right" alt="Logo GTA V" />
+			</div>
+			<nav>
+				<ul class="menu" data-aos="zoom-in">
+					<li>
+						<a href="#home" >Home</a>
+					</li>
+					<li>
+						<a href="#comprar">Comprar</a>
+					</li>
+					<li>
+						<a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte <img src="./imagens/icone-link.svg" alt="Icone de link de suporte" /></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="home" id="home">
+			<img class="imagem-fundo" data-aos="zoom-in" src="./imagens/bg-main.png" data-aos="zoom-out-left" alt="Rapaz de moletom laranja ao lado de um carro esportivo amarelo" />
+
+			<div class="informacoes">
+				<div class="lista-de-jogos">
+					<img src="./imagens/logo-gta-v.svg" alt="Logo GTA V" />
+					<img src="./imagens/logo-gta-online.svg" alt="Logo GTA Online" />
+				</div>
+				<h1 class="titulo" data-aos="fade-up-right">Já disponíveis para Playstation 5 e Xbox Series X|S</h1>
+				<p class="texto">Experimente os fênomenos de entretenimento Grand Theft Auto V e GTA Online</p>
+
+				<a class="btn-comprar" href="#comprar" data-aos="flip-down">Compre já</a>
+			</div>
+		</main>
+		
+		<script src="./main/main.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000
+            });
+        </script>
+	</body>
+</html>
